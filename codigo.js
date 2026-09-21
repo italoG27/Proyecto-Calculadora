@@ -1,27 +1,20 @@
-let pantalla = document.getElementById("pantalla");
-
 function Agregar(dato) {
-  if (!pantalla) pantalla = document.getElementById("pantalla");
+  let pantalla = document.getElementById("pantalla");
   pantalla.value += dato;
 }
 
 function Eliminar() {
-  if (!pantalla) pantalla = document.getElementById("pantalla");
+  let pantalla = document.getElementById("pantalla");
   pantalla.value = pantalla.value.slice(0, -1);
 }
 
-
 function LimpiarTodo() {
-  if (!pantalla) pantalla = document.getElementById("pantalla");
+  let pantalla = document.getElementById("pantalla");
   pantalla.value = "";
 }
 
-
-
-
-
 function Calcular() {
-  if (!pantalla) pantalla = document.getElementById("pantalla");
+  let pantalla = document.getElementById("pantalla");
   try {
     let expresion = pantalla.value.replace(/÷/g, '/');
     pantalla.value = eval(expresion);
@@ -30,17 +23,23 @@ function Calcular() {
   }
 }
 
-function Restar() {
-  Calcular();
+function Resta(){
+    pantalla.value = eval(pantalla.value);
 }
 
-function Multiplicar() {
-  Calcular();
+function multiplicacion(){
+    pantalla.value = eval(pantalla.value);
 }
 
-function Division() {
-  Calcular();
+function Division(){
+    pantalla.value = eval(pantalla.value);
 }
+
+
+
+
+
+
 
 const imagenes = {
   suma: [
