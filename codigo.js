@@ -7,8 +7,18 @@ function Agregar(dato) {
 
 function Eliminar() {
   if (!pantalla) pantalla = document.getElementById("pantalla");
+  pantalla.value = pantalla.value.slice(0, -1);
+}
+
+
+function LimpiarTodo() {
+  if (!pantalla) pantalla = document.getElementById("pantalla");
   pantalla.value = "";
 }
+
+
+
+
 
 function Calcular() {
   if (!pantalla) pantalla = document.getElementById("pantalla");
