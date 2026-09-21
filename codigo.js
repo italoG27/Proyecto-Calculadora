@@ -5,9 +5,8 @@ function Agregar(dato) {
   pantalla.value += dato;
 }
 
-function Eliminar() {
-  if (!pantalla) pantalla = document.getElementById("pantalla");
-  pantalla.value = "";
+function Eliminar(){
+    pantalla.value = "";
 }
 
 function Calcular() {
