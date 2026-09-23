@@ -63,3 +63,81 @@ main {
   cursor: pointer;
   margin: 5px;
 }
+
+
+
+.numeros{
+  display: flex;
+}
+
+
+
+
+.operaciones{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+
+.numero1{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.numero0{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.numero3{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.numero5{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.numero6{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+
+
+
+
+.eliminar{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
